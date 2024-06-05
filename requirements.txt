@@ -1,0 +1,17 @@
+huggingface_hub==0.22.2
+functions-framework==3.*
+langchain
+pandas
+google-cloud-storage
+asyncio
+numpy
+asyncpg
+pgvector
+tqdm
+PyPDF2
+google-cloud-aiplatform
+langchain-google-vertexai==1.0.4
+cloud-sql-python-connector==1.9.2
+flask
+pymongo[srv]
+gradio
