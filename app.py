@@ -2,7 +2,7 @@ import gradio as gr
 import requests
 import os
 # Define the API endpoint
-API_URL = "https://us-central1-gen-ai-wit-rag.cloudfunctions.net/bot_mongo-1"
+API_URL = "https://us-central1-gen-ai-wit-rag.cloudfunctions.net/bot_mongo-2"
 
 # Define functions to interact with the API
 def register_user_interface(employee_code, password):
