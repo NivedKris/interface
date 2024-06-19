@@ -7,12 +7,12 @@ API_URL = "https://us-central1-gen-ai-wit-rag.cloudfunctions.net/bot_mongo-2"
    
 
 
-def chat_interface(user_input,history,user_credentials={"employee_code:"1","password":"1"}):
+def chat_interface(user_input,history):
     if user_credentials is None:
         return "Please log in first."
     
-    employee_code = user_credentials['employee_code']
-    password = user_credentials['password']
+    employee_code = '1'
+    password = '1'
     
     payload = {
         'action': 'chat',
